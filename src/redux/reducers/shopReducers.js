@@ -10,3 +10,14 @@ export const ShopReducers = (state = [], { type, payload }) => {
       return state;
   }
 };
+
+const code = [
+  {
+    code: 2003,
+    name: "doston",
+  },
+];
+
+export const TelegramCode = (state = code, action) => {
+  return state;
+};
